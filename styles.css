@@ -1,0 +1,99 @@
+html{
+    font: 20px;
+    font-family: arial, sans-serif;
+}
+header{ 
+    color: rgba(135, 99, 241, 0.888);
+    background-color: rgb(238, 238, 107);
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+h2{
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+aside ul{
+    font-family: arial, sans-serif;
+    color: green;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+nav a{
+    border: 0.125em solid rgb(91, 11, 147);
+    display: inline-block;
+    padding: 0.313em 0.625em;
+    font: rgb(142, 32, 220);
+    background-color: cornsilk;
+    text-decoration: none;
+    font-family: Impact, 'Arial Bold', sans-serif;
+}
+nav a:hover{
+    background-color: indigo;
+    color: cornsilk;
+    border: cornsilk;
+}
+aside{
+
+    margin-left: 10px;
+    margin-bottom: 20px;
+    flex: 1130%;
+    height: auto;
+    background-color:rgb(166, 216, 246) ;
+    padding: 0.625em;
+    padding-bottom: 23.625em;
+}
+main{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    flex: 2170%;
+    height: auto;
+    background-color: rgb(198, 152, 231);
+    padding: 0.625em;
+    padding-bottom: 3.125em;
+}
+body{
+    margin: 1rem;
+    padding: 1.875em;
+    display: flex;
+    flex-direction: column;
+}
+.structural{
+    margin: 1rem;
+}
+footer{
+    background-color: rgb(133, 242, 184);
+    padding: 1.875em;
+    margin-top: 0.625em;
+    font-size: 0.625em;
+    font-family: Arial, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+div img{
+    width: 367px;
+    height: 200px;
+}
+figure{
+    border: 2px solid black;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    justify-content: space-between;
+    align-items: stretch;
+}
+@media only screen and ( max-width: 600px) {
+    html{
+        font-size: 10px;
+    }
+}
